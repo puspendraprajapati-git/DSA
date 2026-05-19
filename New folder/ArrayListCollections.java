@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class ArrayListCollections {
+    
+    public static void main(String[] args){
+
+        ArrayList<Integer> list1= new ArrayList<>();
+
+        list1.add(10);
+        list1.add(20);
+        list1.add(30);
+        list1.add(40); //10 20 30 40 
+
+        System.out.println(list1);
+        
+        list1.add(50);
+        list1.add(2,45);
+
+        list1.add(3,51);
+
+
+        System.out.println(list1);
+
+        Collections.sort(list1);
+
+        System.out.println(list1);
+
+
+
+
+    }
+
+}
