@@ -1,4 +1,4 @@
-public class reverseArr {
+public class PrintreverseArr {
     
     public static void reverseArray(int arr[], int n){
         

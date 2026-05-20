@@ -1,6 +1,6 @@
 // Rotate array left by 1 position
 
-public class RotateArray{
+public class RotateArrayBy{
 
     public static void RotateArr(int[] arr){
         int n= arr.length;

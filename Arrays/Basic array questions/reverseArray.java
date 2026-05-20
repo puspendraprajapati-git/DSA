@@ -1,6 +1,6 @@
 public class reverseArray {
 
-    public static void reverseArray(int[] arr, int n){
+    public static void reverseArray1(int[] arr, int n){
 
         int start=0;
         int end= n-1;
@@ -24,7 +24,7 @@ public class reverseArray {
         int arr[]= {10,20,55,66,88,99};
         int n = arr.length;
 
-        reverseArray(arr, n);
+        reverseArray1(arr, n);
 
         // for (int i : arr) {
         //     System.out.print(i+" ");
